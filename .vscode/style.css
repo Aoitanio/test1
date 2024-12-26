@@ -100,10 +100,15 @@
   
   /* サービス紹介 */
   .services {
-    max-width: 1200px;
+    /* max-width: 1200px; 共通のコンテナで括るため削除*/
     margin: 3rem auto;
     padding: 0 1rem;
     text-align: center;
+  }
+  
+  .services-container {
+    max-width: 1200px;
+    margin: 0 auto;
   }
   
   .services h2 {
@@ -150,10 +155,15 @@
   
   /* 実績・事例 */
   .portfolio {
-    max-width: 1200px;
+    /* max-width: 1200px; 共通のコンテナで括るため削除*/
     margin: 3rem auto;
     padding: 0 1rem;
     text-align: center;
+  }
+  
+  .portfolio-container {
+    max-width: 1200px;
+    margin: 0 auto;
   }
   
   .portfolio-grid {
@@ -198,8 +208,14 @@
     background-color: #ff6600;
     color: #fff;
     text-align: center;
-    padding: 3rem 1rem;
+    /* padding: 3rem 1rem; 共通のコンテナで括るため削除*/
     margin: 3rem 0;
+  }
+  
+  .cta-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
   }
   
   .call-to-action h2 {
@@ -245,6 +261,7 @@
     margin-bottom: 1rem;
   }
   
+  /* 不要なコードのため削除
   .footer-nav ul {
     list-style: none;
     display: flex;
@@ -262,6 +279,7 @@
   .footer-nav a:hover {
     color: #fff;
   }
+  */
   
   @media (max-width: 768px) {
     .hero-content h1 {
@@ -271,4 +289,3 @@
       font-size: 1rem;
     }
   }
-  
